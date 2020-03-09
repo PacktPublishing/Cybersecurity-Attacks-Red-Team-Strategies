@@ -1,0 +1,1 @@
+PWD=$(zenity --password --text "Update needs your password: "  --title "System Update") 2>/dev/null
