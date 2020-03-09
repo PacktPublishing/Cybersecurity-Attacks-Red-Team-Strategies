@@ -1,1 +1,0 @@
-SCHTASKS /CREATE /TN EventLog /TR 'powershell.exe -WindowStyle Hidden -Command New-BurntToastNotification -Text "[Sentinel] Failed logon detected. Review Eventlog for details."' /SC ONEVENT /EC Security /MO *[System/EventID=4625]
